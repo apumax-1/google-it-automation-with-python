@@ -35,8 +35,8 @@ def binary_search(list, key):
 def best_search(list, key):
     steps_linear = linear_search(list,key)
     steps_binary = binary_search(list,key)
-    results = "Linear: " + str(steps_binary) + " steps, "
-    results += "Binary: " + str(steps_linear) + " steps. "
+    results = "Linear: " + str(steps_linear) + " steps, "
+    results += "Binary: " + str(steps_binary) + " steps. "
     if (steps_linear>steps_binary):
         results += "Best Search is Binary."
     elif (steps_linear<steps_binary):
